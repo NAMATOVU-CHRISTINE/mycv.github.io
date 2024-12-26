@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*body{
+    margin: 1rem;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+border: https://pixabay.com/vectors/vintage-frame-line-art-antique-old-5215935/;
+} 
+main{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+}
+.left{
+    background-image:url('BG22.jpeg');
+    background-size:repeat;
+ border-radius: 50px 50px;
+ width: 100%;
+ font-weight: bold;
+ font-size: large;
+}
+.right{
+    margin-left: 1rem;
+    background-image:url('BG22.jpeg');
+    background-size: 0cap;
+    border-radius: 10%;
+    text-align: left;
+    font-display: right;
+    width: auto;
+    height: 100%;
+    color: #000;
+    font-weight: bold;
+    font-size: largeR;
+}
+body{
+    background-image: url(image21.jpeg);
+    background-size: repeat="right";
+    background-repeat: 2;
+    background-position: center;
+}
+
+.image-container{
+    text-align:left;
+    margin: 1rem;
+}
+ img{
+    max-width: 60%;
+    height:auto ;
+    border-radius: 60%;
+ }
+ h2{
+    color: #0b0b0b;
+    font-size: 24px;
+    margin-bottom: 10px;
+ }
+ footer{
+    background-color: #879893;
+    color: #0f0e0e;
+    padding: 1px 2px;
+    width: 100%;
+    position:fixed;
+    text-align: center;
+    height: 25%;
+    top: 94%;
+    left: 6%;
+    transform: (-50%,-50%);
+    bottom:0;
+    left: 0;
+    margin: 1px;
+    z-index: 1;
+    text-shadow: none;
+    font-size: larger;
+    font-weight: bolder;
+
+ }
+ footer p{
+    margin: 18px;
+ }
+ .left-line{
+    padding-left: 10px;
+ }
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+}
+
+th, td {
+    border: 1px solid #111010;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #e1d7d7;
+}
+progress{
+    width: 50%;
+    height: 20px;
+
+}
+progress text{
+    position: left;
+    top: 50%;
+    left: 50%;
+}
+.corner-flower{
+    top: 50px;
+    right: 50px;
+    position:absolute;
+    max-width: 15%;
+;
+height: auto;
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bold;
+
+}
